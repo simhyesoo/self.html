@@ -1,0 +1,223 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Prociono', serif;
+    color: #58412A;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #58412A;
+}
+
+a {
+    text-decoration: none;
+    color: #58412A;
+}
+
+header>h1 {}
+
+header>h1>a {
+    color: #58412A;
+}
+
+header>nav {
+    color: #58412A;
+}
+
+header>nav>a {
+    padding: 30px;
+}
+
+header>div {}
+
+header>div>a {}
+
+
+
+main {
+    width: 1536px;
+    margin: 0 auto;
+}
+
+.spot {
+    height: 626px;
+    background: url(../img/img_01.jpg) 0 0/ cover no-repeat;
+    color: #58412A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 28px;
+}
+
+.spot>b {
+    font-size: 3rem;
+}
+
+.spot>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*product*/
+
+h1{
+    margin: 40px;
+}
+.product{
+    margin: 100px 0;
+}
+.swiper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.swiper-wrapper {}
+
+.swiper>figure {
+    position: relative;
+    
+}
+
+
+.swiper>figure>p {}
+
+.swiper>figure>p>img {}
+
+.swiper>figure>figcaption {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #EEE7E1;
+    width: 100%;
+    height: 191px;
+    flex-shrink: 0;
+    text-align: center;
+    opacity: 0;
+    transition: 1s;
+    /* padding-top: 103px; */
+    border-radius: 20px 20px 0 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+  
+}
+
+.swiper>figure:hover>figcaption {
+    opacity: 1;
+    
+}
+
+.swiper>figure>figcaption>p {
+
+}
+
+
+
+
+
+
+
+
+
+/*mask*/
+
+.mask-01 {
+    color: #58412A;
+
+}
+
+.mask-01>figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mask-01>figure>p {
+    width: 50%;
+}
+
+.mask-01>figure>p>img {}
+
+.mask-01>figure>figcaption {
+    width: 40%;
+
+}
+
+.mask-01>figure>figcaption>b {
+    font-size: 3rem;
+}
+
+
+.mask-01>figure>figcaption>p:nth-child(1) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mask-01>figure>figcaption>p:nth-child(2) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mask-01>figure>figcaption>p:nth-child(3) {}
+
+
+
+.mask-02 {
+    color: #58412A;
+
+}
+
+.mask-02>figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.mask-02>figure>p {
+    width: 50%;
+}
+
+.mask-01>figure>p>img {}
+
+.mask-02>figure>figcaption {
+    width: 40%;
+
+}
+
+.mask-02>figure>figcaption>b {
+    font-size: 3rem;
+}
+
+
+.mask-02>figure>figcaption>p:nth-child(1) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mask-02>figure>figcaption>p:nth-child(2) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mask-02>figure>figcaption>p:nth-child(3) {}
+
+.footer{
+    margin: 80px 0 0 0;
+    background-color: #EEE7E1;
+    display: flex;
+    justify-content: space-between;
+    height: 339px;
+    vertical-align: middle;
+}
+
+
